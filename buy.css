@@ -1,0 +1,37 @@
+body
+{  
+   background-image: url('./currency.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   height:100%;
+   overflow-x: hidden;
+}
+form
+{
+    position: relative;
+    left:40%;
+    text-align:center;
+    top:20%;
+    color:rgb(14, 8, 0);
+    font-size: x-large;
+    width: 18%;
+    height: 75%;
+    background-color:rgb(165, 192, 208);
+    border-radius: 9px;
+    padding: 50px;
+    
+}
+.submit:hover
+{
+    color: white;
+    background-color: black;
+}
+
+@-o-viewport
+{
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+
+

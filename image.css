@@ -1,0 +1,98 @@
+@-o-viewport
+{
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+
+
+
+
+#position
+{
+    height: 300px;
+    width: 400px;
+}
+#block
+{
+    background-color:rgb(223, 233, 244); 
+    padding: 5px;
+}
+
+
+.padding
+{
+    position: relative;
+    padding-top: 0px;
+    left: 130px;
+    font-size: 20px;
+  
+}
+
+.price
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: rgb(228, 125, 14);
+    font-size: 25px;
+}
+
+.span
+{
+    position: sticky;
+    left:150px;
+    padding-left: 120px;
+
+}
+.checked
+{
+    color:orange;
+}
+
+
+
+#container
+{
+    display: flex;
+
+}
+
+.buy
+{   position: relative;
+    left:660px;
+    top:20px;
+    padding: 8px;
+    width: 100px;
+    height:30px;
+    border-radius: 8px;
+    background-color: chartreuse;
+    text-decoration: none;
+
+
+}
+body
+{
+    overflow-x: hidden;
+}
+
+.contact
+{
+    width:10%;
+    height:25%;
+    position: relative;
+    left: 25%;
+    
+    background-color:rgb(221, 236, 241);
+    color:rgb(167, 65, 65);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    word-wrap: break-word;
+    
+}
+.contact:hover
+{
+    background-color: rgb(222, 192, 197);
+    color: white;
+}

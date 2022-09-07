@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="buy.css">
+        <link rel="shortcut icon" type="x-icon" href="dollar.jfif">
+        <body>
+            <form>
+                <label><b>Enter First Name</b></label><br>
+                <input type="text" name="uname" ><br><br>
+                <label><b>Enter Last Name</b></label><br>
+                <input type="text" name="uname" ><br><br>
+                <label><b>Address</b></label><br>
+                <input type="text" name="uname" ><br><br>
+                <label><b>Country</b></label><br>
+                <input type="text" name="uname" value="India" disabled ><br><br>
+            
+            <label>  
+                <b>Enter your State/Ut</b><br />  
+                <input type="text"  list="states">  
+                <datalist id="states">  
+                <option value="Andaman & Nicobar Islands">  
+                <option value="Chandigarh">  
+                <option value="Dadra and Nagar Haveli and Daman & Diu">   
+                <option value="The NCT of Delhi">   
+                <option value="Jammu & Kashmir">   
+                <option value="Ladakh">   
+                <option value="Lakshadweep">   
+                <option value="Puducherry">   
+                <option value="Andhra Pradesh ">   
+                <option value="Arunachal Pradesh">   
+                <option value="Assam">   
+                <option value="Bihar">
+                <option value="Chhattisgarh">
+                <option value="Goa">  
+                <option value="Gujarat">  
+                <option value="Haryana">   
+                <option value="Himachal Pradesh">   
+                <option value="Jharkhand">   
+                <option value="Karnataka">   
+                <option value="Kerala">   
+                <option value="Madhya Pradesh">   
+                <option value="Maharashtra ">   
+                <option value="Manipur">   
+                <option value="Meghalaya">   
+                <option value="Mizoram">
+                <option value="Nagaland">
+                <option value="Odisha">   
+                <option value="Punjab ">   
+                <option value="Rajasthan">   
+                <option value="Sikkim">   
+                <option value="Tamil Nadu">
+                <option value="Telangana">
+                <option value="Tripura">   
+                <option value="Uttar Pradesh">   
+                <option value="Uttarakhand">
+                <option value="West Bengal">
+                </datalist>  
+            </label>
+            <br><br>
+            <div>
+                <label for="gender"> 
+                <b>Gender</b> :
+                </label>
+                <br>
+                <input type="radio" id="gender" value="Male" name="gender" checked > Male 
+                <input type="radio" id="gender" value="Female" name="gender"> Female 
+                <input type="radio" id="gender" value="Other" name="gender"> Other 
+            </div>
+            <br><br>
+            <label for="Phone"> 
+                Phone:
+            </label>
+                <input type="text" name="country code" placeholder="Country Code"  value="+91" disabled size="2"/> 
+                <input type="text" id="Phone" name="phone" placeholder="phone no." size="10" required 10>
+                <br><br>
+                <button class="submit" type="submit" value="ok" onclick="c()">Submit</button>
+                <script>
+                    function c()
+                    {
+                        alert("Thanks for ordering");
+                    }
+                </script>
+            </form>   
+            
+   
+        </body>
+    </head>
+</html>
